@@ -1,0 +1,11 @@
+:root{
+    --white : white;
+    --background-main : #E5E5E5;
+    --main-txt : #4E5150;
+    --second-txt : #A9A9A9;
+    --media-txt : #BDBDBD
+}
+
+body{
+    width: 100vw;
+}

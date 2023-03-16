@@ -1,0 +1,43 @@
+.media{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.media-posts{
+    background: var(--background-main);
+    border-radius: 12px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3rem;
+}
+
+.media-numbers{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--main-txt);
+    margin-bottom: 0.5rem;
+}
+
+.media-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--media-txt);
+    font-size: 0.8rem;
+    margin-top: 0rem;
+}
+
+@media screen and (min-width: 768px) {
+    .media{
+        margin-top: 2.5rem;
+    }
+    .media-posts{
+        width: 7%;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+    }
+}

@@ -1,0 +1,39 @@
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.profile-photo{
+    width: 30%;
+    border-radius: 16px;
+}
+
+.profile-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--main-txt);
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+}
+
+.profile-location{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--second-txt);
+    font-size: 0.8rem;
+    margin-top: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+    .profile-photo{
+        width: 10%;
+    }
+    .profile-name{
+        font-size: 1.8rem;
+    }
+    .profile-location{
+        font-size: 1rem;
+    }
+}
